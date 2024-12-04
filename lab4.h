@@ -33,7 +33,7 @@ unsigned char get_offset_from(int logical_address);
 // page table functions
 void init_page_table();
 void close_page_table();
-short page_table_lookup(unsigned char);
+short page_table_lookup(unsigned char page);
 void update_page_table(unsigned char page, unsigned char frame);
 
 //TLB functions
